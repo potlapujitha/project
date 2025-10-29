@@ -1,0 +1,27 @@
+{
+  "name": "plant-detection",
+  "version": "1.0.0",
+  "description": "Plant detection project with login, scanner, and location using Node.js and frontend API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "plant-detection",
+    "nodejs",
+    "express",
+    "api",
+    "frontend"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
